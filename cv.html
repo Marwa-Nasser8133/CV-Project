@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./image/6588161.png">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-desktop/">
+    <title>Personal Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #e3f2fd, #e0f7fa);
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info {
+            max-width: 50%;
+        }
+
+        .head {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .head img {
+            width: 50px;
+            margin-left: 20px;
+        }
+
+        .info h1 {
+            font-size: 48px;
+            margin: 10px 0;
+        }
+
+        .info h1:hover {
+            color: #0078d7;
+        }
+
+        .info h2 {
+            font-size: 24px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .info .data {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .info .data span {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .text {
+            color: #0078d7;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .hello {
+            display: inline-block;
+            background-color: #0078d7;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 25px;
+            font-size: 18px;
+            margin: 0 10px 10px;
+        }
+
+        .hello:hover {
+            background-color: #e3f2fd;
+            color: #0078d7;
+        }
+
+        .image {
+            max-width: 50%;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body id="cv">
+    <div class="container">
+        <div class="info">
+            <div class="head">
+                <img src="./image/pngtree-cv-icon-for-your-project-png-image_1555553.jpg" alt="">
+                <div><span class="hello">Hello</span><span class="text">I'm</span></div>
+            </div>
+            <h1>Marwa Nasser</h1>
+            <h2>Web Developer</h2>
+            <div class="data">
+                <span><i class="fa-solid fa-graduation-cap"></i>Faculty of Arts,Department of Archeology, Islamic
+                    Archeology Division</span>
+                <span><i class="fa-solid fa-user-graduate"></i> Graduated in 2023</span>
+                <span><i class="fa-solid fa-location-crosshairs"></i>Abu Qurqas - El Minia - Egypt</span>
+                <span><i class="fa-solid fa-envelope"></i>marwa.nasser8133@gmail.com</span>
+                <span><i class="fa-solid fa-phone"></i>01010560217</span>
+            </div>
+        </div>
+        <div class="image">
+            <img src="./image/2016549.webp" alt="Developer">
+        </div>
+    </div>
+</body>
+
+</html>

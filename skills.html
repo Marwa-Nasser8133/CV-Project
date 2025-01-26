@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon"
+        href="./image/pngtree-flat-design-of-soft-skills-concept-png-image_12580304.png" />
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(to right, #e3f2fd, #e0f7fa);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-section,
+        .right-section {
+            width: 48%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0078d7;
+            margin-bottom: 20px;
+        }
+
+        .skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .skill span {
+            width: 150px;
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            flex-grow: 1;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            margin: 0 10px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #0078d7;
+            border-radius: 10px;
+        }
+
+        .percentage-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #0078d7;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Technical Skills</h1>
+            <div class="skill">
+                <span>HTML</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+                <div class="percentage-circle">90%</div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 86%"></div>
+                </div>
+                <div class="percentage-circle">86%</div>
+            </div>
+            <div class="skill">
+                <span>Linux Instructions</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%"></div>
+                </div>
+                <div class="percentage-circle">60%</div>
+            </div>
+            <div class="skill">
+                <span>WordPress</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%"></div>
+                </div>
+                <div class="percentage-circle">50%</div>
+            </div>
+            <div class="skill">
+                <span>Firebase</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%"></div>
+                </div>
+                <div class="percentage-circle">50%</div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <h1>Professional Skills</h1>
+            <div class="skill">
+                <span>Team Work</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+                <div class="percentage-circle">90%</div>
+            </div>
+            <div class="skill">
+                <span>Communication</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+                <div class="percentage-circle">80%</div>
+            </div>
+            <div class="skill">
+                <span>Creativity</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+                <div class="percentage-circle">75%</div>
+            </div>
+            <div class="skill">
+                <span>Project Management</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+                <div class="percentage-circle">75%</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

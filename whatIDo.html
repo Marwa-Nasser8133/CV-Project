@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"
+        href="./image/png-transparent-to-do-list-notebook-computer-icons-action-item-task-android-to-do-list-icon-miscellaneous-angle-text-thumbnail.png">
+    <title>What I Do</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #e3f2fd, #e0f7fa);
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .title {
+            display: inline-block;
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .title:hover {
+            background-color: #e3f2fd;
+            color: #0078d7;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background: linear-gradient(to right, #e3f2fd, #e0f7fa);
+        }
+
+        .card img {
+            width: 150px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card:hover h3 {
+            color: #0078d7;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">What I Do</div>
+        <div class="cards">
+            <div class="card">
+                <img src="./image/png-transparent-user-interface-design-icon-design-graphic-design-design-web-design-user-interface-design-text-thumbnail.png"
+                    alt="UI Design">
+                <h3>UI Design</h3>
+                <p>Make an interactive and simple User Interface.</p>
+            </div>
+            <div class="card">
+                <img src="./image/kisspng-web-development-responsive-web-design-professional-target-customer-5b5012942d52c9.1473731315319742921857.jpg"
+                    alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Make usable and maintaining websites.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

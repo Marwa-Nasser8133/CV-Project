@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"
+        href="./image/png-transparent-computer-icons-feedback-information-feedback-miscellaneous-text-number-thumbnail.png">
+    <title>Send Your Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #e3f2fd, #e0f7fa);
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+            max-width: 1200px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .title {
+            display: inline-block;
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-size: 10px;
+            margin-bottom: 40px;
+        }
+
+        .title:hover {
+            background-color: #e3f2fd;
+            color: #0078d7;
+        }
+
+        .feedback-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        textarea {
+            width: 60%;
+            height: 200px;
+            padding: 10px;
+            border: 2px solid #0078d7;
+            border-radius: 8px;
+            font-size: 16px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #0078d7;
+            width: 200px;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #e3f2fd;
+            color: #0078d7;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        button:hover a {
+            color: #0078d7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Send Your Feedback</h1>
+        </div>
+        <div class="form">
+            <form class="feedback-form">
+                <textarea placeholder="Write yoyr comment here..." required></textarea>
+                <button type="submit"><a href="./thankYou.html">Submit</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
